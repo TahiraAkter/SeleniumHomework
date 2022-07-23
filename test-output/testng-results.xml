@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-23T18:37:56 EDT" name="Default suite" finished-at="2022-07-23T18:38:10 EDT" duration-ms="14293">
+    <groups>
+    </groups>
+    <test started-at="2022-07-23T18:37:56 EDT" name="Default test" finished-at="2022-07-23T18:38:10 EDT" duration-ms="14293">
+      <class name="hw13_dynamic_xpath_and_testNG.Using_testNG_to_run_url">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hw13_dynamic_xpath_and_testNG.Using_testNG_to_run_url@2c35e847]" started-at="2022-07-23T18:37:56 EDT" name="setUp" finished-at="2022-07-23T18:38:00 EDT" duration-ms="4217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="urlTest()[pri:0, instance:hw13_dynamic_xpath_and_testNG.Using_testNG_to_run_url@2c35e847]" started-at="2022-07-23T18:38:00 EDT" name="urlTest" finished-at="2022-07-23T18:38:10 EDT" duration-ms="9544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:hw13_dynamic_xpath_and_testNG.Using_testNG_to_run_url@2c35e847]" started-at="2022-07-23T18:38:10 EDT" name="tearUp" finished-at="2022-07-23T18:38:10 EDT" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- hw13_dynamic_xpath_and_testNG.Using_testNG_to_run_url -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
