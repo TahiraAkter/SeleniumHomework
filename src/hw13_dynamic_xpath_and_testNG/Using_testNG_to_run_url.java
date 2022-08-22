@@ -1,7 +1,7 @@
 package hw13_dynamic_xpath_and_testNG;
 
-import java.security.PublicKey;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -17,13 +17,15 @@ public class Using_testNG_to_run_url {
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
+		
 	}
 		
 		@Test
 		public void urlTest() throws InterruptedException {
 			driver.get("https://www.pfizer.com");
-			Thread.sleep(5000);			
+			Thread.sleep(5000);	
 		}
+		
 		@AfterTest
 		public void tearUp() {
 			driver.quit();
