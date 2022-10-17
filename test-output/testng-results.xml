@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-22T01:45:46 EDT" name="Default suite" finished-at="2022-08-22T01:45:49 EDT" duration-ms="3090">
+  <suite started-at="2022-10-14T12:26:29 EDT" name="Default suite" finished-at="2022-10-14T12:26:42 EDT" duration-ms="12933">
     <groups>
     </groups>
-    <test started-at="2022-08-22T01:45:46 EDT" name="Default test" finished-at="2022-08-22T01:45:49 EDT" duration-ms="3090">
-      <class name="hw13_dynamic_xpath_and_testNG.Using_testNG_to_run_url">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hw13_dynamic_xpath_and_testNG.Using_testNG_to_run_url@316bcf94]" started-at="2022-08-22T01:45:46 EDT" name="setUp" finished-at="2022-08-22T01:45:49 EDT" duration-ms="3013" status="FAIL">
+    <test started-at="2022-10-14T12:26:29 EDT" name="Default test" finished-at="2022-10-14T12:26:42 EDT" duration-ms="12933">
+      <class name="hw15_selenium_methods.Use_of_various_selenium_methods">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hw15_selenium_methods.Use_of_various_selenium_methods@729d991e]" started-at="2022-10-14T12:26:29 EDT" name="setUp" finished-at="2022-10-14T12:26:42 EDT" duration-ms="12865" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 102
-Current browser version is 104.0.5112.101 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Current browser version is 106.0.5249.103 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '4.2.2', revision: '683ccb65d6'
 System info: host: 'DESKTOP-O3KMR4H', ip: '192.168.1.188', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -19,7 +19,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 102
-Current browser version is 104.0.5112.101 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Current browser version is 106.0.5249.103 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '4.2.2', revision: '683ccb65d6'
 System info: host: 'DESKTOP-O3KMR4H', ip: '192.168.1.188', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -37,7 +37,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:106)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
-at hw13_dynamic_xpath_and_testNG.Using_testNG_to_run_url.setUp(Using_testNG_to_run_url.java:17)
+at hw15_selenium_methods.Use_of_various_selenium_methods.setUp(Use_of_various_selenium_methods.java:17)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -68,11 +68,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="urlTest()[pri:0, instance:hw13_dynamic_xpath_and_testNG.Using_testNG_to_run_url@316bcf94]" started-at="2022-08-22T01:45:49 EDT" name="urlTest" finished-at="2022-08-22T01:45:49 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="clickRegistryById()[pri:0, instance:hw15_selenium_methods.Use_of_various_selenium_methods@729d991e]" started-at="2022-10-14T12:26:42 EDT" name="clickRegistryById" finished-at="2022-10-14T12:26:42 EDT" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 102
-Current browser version is 104.0.5112.101 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Current browser version is 106.0.5249.103 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '4.2.2', revision: '683ccb65d6'
 System info: host: 'DESKTOP-O3KMR4H', ip: '192.168.1.188', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -80,7 +80,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goo
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 102
-Current browser version is 104.0.5112.101 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Current browser version is 106.0.5249.103 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Build info: version: '4.2.2', revision: '683ccb65d6'
 System info: host: 'DESKTOP-O3KMR4H', ip: '192.168.1.188', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -98,7 +98,7 @@ at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:106)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
-at hw13_dynamic_xpath_and_testNG.Using_testNG_to_run_url.setUp(Using_testNG_to_run_url.java:17)
+at hw15_selenium_methods.Use_of_various_selenium_methods.setUp(Use_of_various_selenium_methods.java:17)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -128,12 +128,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- urlTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:hw13_dynamic_xpath_and_testNG.Using_testNG_to_run_url@316bcf94]" started-at="2022-08-22T01:45:49 EDT" name="tearUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1661147149307" status="SKIP">
+        </test-method> <!-- clickRegistryById -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:hw15_selenium_methods.Use_of_various_selenium_methods@729d991e]" started-at="2022-10-14T12:26:42 EDT" name="tearUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1665764802437" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- hw13_dynamic_xpath_and_testNG.Using_testNG_to_run_url -->
+      </class> <!-- hw15_selenium_methods.Use_of_various_selenium_methods -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

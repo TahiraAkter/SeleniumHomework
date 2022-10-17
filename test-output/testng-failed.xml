@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw13_dynamic_xpath_and_testNG.Using_testNG_to_run_url">
+      <class name="hw15_selenium_methods.Use_of_various_selenium_methods">
         <methods>
-          <include name="setUp"/>
-          <include name="urlTest"/>
           <include name="tearUp"/>
+          <include name="clickRegistryById"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- hw13_dynamic_xpath_and_testNG.Using_testNG_to_run_url -->
+      </class> <!-- hw15_selenium_methods.Use_of_various_selenium_methods -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

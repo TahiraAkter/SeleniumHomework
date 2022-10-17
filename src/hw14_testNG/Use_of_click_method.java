@@ -27,20 +27,24 @@ public class Use_of_click_method {
 			driver.findElement(By.id("utilityNav-registries")).click();
 			Thread.sleep(3000);
 		}
+		@Test
 		public void clickHamburgerByClassName() throws InterruptedException {
 			driver.findElement(By.className("c-button-unstyled hamburger-menu-button")).click();
 			Thread.sleep(3000);			
 		}
+		@Test
 		public void clickPickupAndDeliveryByLinkText() throws InterruptedException {
 			driver.findElement(By.linkText("Pickup & Delivery"));
 			Thread.sleep(5000);
 			
 		}
+		@Test
 		public void clickPickupAndDeliveryByPartialLinkText() throws InterruptedException {
 			driver.findElement(By.partialLinkText("Pickup &"));
 			Thread.sleep(5000);
 			
 		}
+		@Test
 		public void clickSearchByCssSelector() throws InterruptedException {		
 		driver.findElement(By.cssSelector("input#search")).click();
 			Thread.sleep(5000);			
