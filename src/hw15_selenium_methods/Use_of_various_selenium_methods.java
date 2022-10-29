@@ -69,8 +69,7 @@ public class Use_of_various_selenium_methods {
 
 	@Test(enabled = true, priority = 3)
 	public void isSelectedTest() throws InterruptedException {
-		boolean isCheckboxSelected = driver
-				.findElement(By.cssSelector("div.styles__CheckboxVisual-sc-1ekjv4k-5.cFLzIx")).isSelected();
+		boolean isCheckboxSelected = driver.findElement(By.cssSelector("div.styles__CheckboxVisual-sc-1ekjv4k-5.cFLzIx")).isSelected();
 		System.out.println("Is keep me signed in checkbox selected? Ans: " + isCheckboxSelected);
 		Thread.sleep(3000);
 	}
@@ -118,7 +117,7 @@ public class Use_of_various_selenium_methods {
 	}
 
 	@Test
-	public void sendKeysTest2() throws InterruptedException {
+	public void sendKeysWithEnterTest() throws InterruptedException {
 		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("taha@gmail.com", Keys.ENTER);
 		Thread.sleep(3000);
 

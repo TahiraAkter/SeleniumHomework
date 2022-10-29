@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw15_selenium_methods.Use_of_various_selenium_methods">
+      <class name="hw16_selenium_methods.HW16_more_selenium_methods">
         <methods>
           <include name="tearUp"/>
-          <include name="clickRegistryById"/>
+          <include name="sendKeysTest1"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- hw15_selenium_methods.Use_of_various_selenium_methods -->
+      </class> <!-- hw16_selenium_methods.HW16_more_selenium_methods -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
